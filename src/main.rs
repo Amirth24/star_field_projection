@@ -10,25 +10,14 @@ use piston::event_loop::{EventSettings, Events};
 use piston::input::{RenderEvent,  UpdateEvent};
 use piston::window::WindowSettings;
 
-
-
-
-
-
 pub mod app;
-
-
-
-
-
-
 
 fn main() {
     // Change this to OpenGL::V2_1 if not working.
     let opengl = OpenGL::V3_2;
 
     // Create an Glutin window.
-    let mut window: Window = WindowSettings::new("Star Field Simulation", [app::WIDTH as u32, app::HEIGHT as u32])
+    let mut window: Window = WindowSettings::new("Star Field Projection", [app::WIDTH as u32, app::HEIGHT as u32])
         .graphics_api(opengl)
         .exit_on_esc(true)
         .build()
