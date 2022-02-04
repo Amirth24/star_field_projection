@@ -1,6 +1,6 @@
 # Star Field Projection
 
-    A star field projection in rust lang using piston-2d engine.
+A star field projection in rust lang using piston-2d engine.
 
 ![example_img](images/example.png)
 
